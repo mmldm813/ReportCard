@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/reportcard"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Report Card"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/chem_grade_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="0"
+        tools:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/math_grade_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="0"
+        tools:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/social_studies_grade_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="0"
+        tools:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/art_grade_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="0"
+        tools:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/final_grade_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="0"
+        tools:textSize="16sp"/>
+
+</LinearLayout>
